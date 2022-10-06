@@ -18,6 +18,7 @@ main {
   background-color: white;
   width: 600px;
   border-radius: 10px;
+  box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.1);
 }
 .image {
   vertical-align: middle;
@@ -65,6 +66,7 @@ h2 {
   background-color: hsl(158, 36%, 37%);
   border-radius: 6px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .button-container:hover {
   background-color:  hsl(158, 75%, 16%);
@@ -73,20 +75,28 @@ h2 {
   background-color:  hsl(158, 75%, 16%);
 }
 .button {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
   background-color: hsl(158, 36%, 37%);
   color: white;
   border: none;
   cursor: pointer;
+  margin-left: 6px;
+  transition: 0.3s;
 }
 
 .price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 30px;
   font-weight: 700;
   font-family: fraunces;
   color: hsl(158, 36%, 37%);
+
 }
-span {
-  font-size: 14px;
+.price-old {
+  font-size: 13px;
   font-weight: 400;
   color:  hsl(228, 12%, 48%);
   font-family: montserrat;
@@ -106,7 +116,7 @@ span {
   border-radius: 10px 10px 0px 0px;
  }
  .text-container {
-   width: 260px;
+   width: 274px;
    padding: 20px;
    border-radius: 0px 0px 10px 10px;
    margin: 0;
@@ -114,11 +124,11 @@ span {
   }
 
 .image-container {
-  width: 300px;
+  width: 312px;
   border-radius: 10px 10px 0px 0px;
 }
 main {
-  width: 300px;
+  width: 312px;
   border-radius: 10px;
 }
 h2{
@@ -132,7 +142,7 @@ h1{
 
 }
 p{
-  font-size: 12px;
+  font-size: 13px;
 }
 .button-container {
   margin: 0;
@@ -145,38 +155,3 @@ p{
 }
 }
 
-
-
-
-
-/*
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
-*/
