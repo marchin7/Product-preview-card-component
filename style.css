@@ -105,7 +105,7 @@ h2 {
   text-decoration: line-through;
 }
 
-@media(max-width: 37.5rem){
+@media(max-width: 650px){
  main{ flex-direction: column;}
  .image {
   display: none;
@@ -155,4 +155,3 @@ p{
 
 }
 }
-
