@@ -38,20 +38,20 @@ p {
 }
 h1 {
   font-family: fraunces;
-  line-height: 1.875rem;
+  line-height: 2rem;
 }
 h2 {
   font-size: 0.8125rem;
   color: hsl(228, 12%, 48%);
   font-weight: 400;
-  margin-bottom: 1.875rem;
   letter-spacing: 0.25rem;
-
+  margin-top: 0.625rem;
 }
 .text-container {
   width: 18.75rem;
+  height: 25.625rem;
   background-color: white;
-  padding: 1.875rem;
+  padding:0rem 1.875rem;
   margin: 0;
   border-radius: 0rem 0.625rem 0.625rem 0rem;
 
@@ -60,7 +60,7 @@ h2 {
   height: 100%;
 }
 .button-container {
-  height: 2.8125rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,10 +90,11 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.875rem;
+  font-size: 2.125rem;
   font-weight: 700;
   font-family: fraunces;
   color: hsl(158, 36%, 37%);
+  margin-top: 2.625rem;
 
 }
 .price-old {
@@ -105,7 +106,7 @@ h2 {
   text-decoration: line-through;
 }
 
-@media(max-width: 650px){
+@media(max-width: 37.5rem){
  main{ flex-direction: column;}
  .image {
   display: none;
@@ -117,7 +118,7 @@ h2 {
   border-radius: 0.625rem 0.625rem 0rem 0rem;
  }
  .text-container {
-   width: 17.125rem;
+   width: 17rem;
    padding: 1.25rem;
    border-radius: 0rem 0rem 0.625rem 0.625rem;
    margin: 0;
@@ -134,8 +135,6 @@ main {
 }
 h2{
   font-size: 0.75rem;
-  margin: 0;
-  margin-bottom: 0.625rem;
 }
 h1{
   font-size: 1.8125rem;
